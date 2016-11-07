@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  width: 90%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  font-family: Helvetica;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Tablets only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-2 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-1 {
+    float: left;
+    width: 100%;
+  }
+}
+/********** Mobile view only **********/
+@media (max-width: 767px) {
+  .col-sm-1 {
+    float: left;
+    width: 100%;
+  }
+}
+
+#s1 {
+  background-color: gray;
+  border: 1px solid black;
+  position: relative;
+  margin: 15px;
+}
+
+#h1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 125px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#h2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 125px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#h3 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 125px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+}
